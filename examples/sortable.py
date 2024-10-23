@@ -1,5 +1,6 @@
 from flask_table import Table, Col, LinkCol
-from flask import Flask, Markup, request, url_for
+from flask import Flask, request, url_for
+from markupsafe import Markup
 
 """
 A example for creating a Table that is sortable by its header

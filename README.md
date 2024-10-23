@@ -354,7 +354,7 @@ If you need access to all of information in the item, then we can go a
 stage earlier in the process and override the td_contents method:
 
 ```python
-from flask import Markup
+from markupsafe import Markup
 
 def td_contents(self, i, attr_list):
     # by default this does
